@@ -1,6 +1,6 @@
 Kai Rowlands
 
-Root-Finding Algorithm
+Root-Finding Algorithms
 
 This repository contains three algorithms for determining the root of a function using techniques from calculus, namely the bisection method, the modified secant method, and the Newton-Raphson Method. To begin compile the code using the following commands for each program: (i) g++ bisection.cpp -o bisection; (ii) g++ newton.cpp -o newton; (iii) g++ secant.cpp -o secant. Once you have done this execute the code using the following commands: (i) ./bisection; (ii) ./newton; (iii) ./secant. Once you have done this each program will run on its own.
 
