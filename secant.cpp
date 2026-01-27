@@ -13,11 +13,6 @@ double f(double x){
 
 double delta = 0.01;    // Define the pertubation value
 
-// Define the approximation of the derivative of f
-double df(double x0){
-    return f(x0 + delta) - f(x0) / delta;
-}
-
 double secant(double x0){
     double h = (delta * f(x0)) / (f(x0 + delta) - f(x0));
     double tolerance = 0.00001;
